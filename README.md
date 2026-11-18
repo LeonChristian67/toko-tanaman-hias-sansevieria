@@ -12,7 +12,64 @@ Selamat datang di Sansevieria, toko tanaman hias yang menyediakan berbagai pilih
 Alasan : Kami memilih warna tersebut karena warna daun adalah hijau, pot berwarna coklat, dan agar warna backgroundnya selaras dengan 2 warna di awal maka dari itu kami memilih warna cream.
  
 1. Cara menjalankan website : Live Server
-2. Struktur Folder : Utama
+2. Struktur Folder :
+
+```
+toko-tanaman-hias-sansevieria/
+│
+├── assets/
+│   ├── fonts/
+│   ├── images/
+│   │   ├── about/
+│   │   ├── delivery-info/
+│   │   ├── gallery/
+│   │   ├── hero/
+│   │   ├── logo/
+│   │   ├── plant-care/
+│   │   └── products/
+│   │
+│   └── .gitkeep
+│
+├── pages/
+│   ├── about.html
+│   ├── delivery-info.html
+│   ├── gallery.html
+│   ├── plant-care.html
+│   ├── pricing.html
+│   └── products.html
+│
+├── styles/
+│   ├── about.css
+│   ├── contacts.css
+│   ├── delivery-info.css
+│   ├── gallery.css
+│   ├── global.css
+│   ├── index.css
+│   ├── plant-care.css
+│   ├── pricing.css
+│   └── products.css
+│
+├── index.html
+│
+└── README.md
+```
+
 3. Sumber Gambar : Sumber berlinsensi bebas, dari Google.
  
 Catatan Proses :
+Kendala,
+
+1. Membuat branch baru dan mengclone folder main karena kami lupa
+- Cara mengatasinya : Kami menonton ulang video yang pernah diajarkan sehingga kami dapat membuat branch baru dan mengklone folder tersebut.
+ 
+2. Tidak ada waktu free untuk mengerjakan tugas ini karena ada banyak proyek SAS yang perlu diselesaikan
+- Cara mengatasinya : Membagi waktu yang seimbang agar proyek ini selesai dan proyek lain juga selesai.
+ 
+3. Menentukan posisi yang bagus untuk menampilkan tulisan dan gambar yang rapi.
+- Cara mengatasinya : Kami mencoba berbagai posisi sampai kami menemukan posisi yang keliatannya bagus.
+
+Refleksi :
+- Leon : Bagian yang susah adalah beranda karena lumayan ribet mengaturnya. Yang saya pelajari adalah cara menggunakkan github dalam bekerja sama membuat website.
+- Carissa : Menurut saya hal yang paling sulit adalah menentukan isi page supaya sesuai dengan website yang dibuat dan saya belajar tentang cara membuat website yang dapat dipakai dengan html dan css dengan baik.
+- Tommy : Bagian yang susah adalah produk karena saya masih bingung kode yang harus dimasukkan. Yang saya pelajari adalah cara menggunakan github.
+- Gilbert : Hal yang paling sulit adalah kordinasi atau komunikasi antar anggota lalu saya juga selalu lupa tentang command dari css dan yang saya pelajari adalah pentingnya kerja sama antar anggota dan komunikasi yang kuat dan cara membuat web yang baik dann bagus.
