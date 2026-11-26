@@ -1,0 +1,192 @@
+.hero {
+    min-height: 420px;
+    background-image: linear-gradient(
+        rgba(25, 55, 32, 0.55)
+    ), url('/assets/images/index/tanaman-sansevieria.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 40px 8%;
+    box-sizing: border-box;
+}
+
+.hero-content {
+    width: 55%;
+    color: white;
+}
+
+.hero-label {
+    color: #E6D6AE;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.hero-content h1 {
+    font-size: 40px;
+    margin: 15px 0;
+    line-height: 1.3;
+}
+
+.hero-content p {
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #8B6246;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #6D4C36;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 65px 8%;
+}
+
+.about-image {
+    width: 45%;
+}
+
+.about-image img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.about-content {
+    width: 55%;
+}
+
+.about-content h2 {
+    color: #315B3B;
+    font-size: 27px;
+}
+
+.about-content p {
+    color: #6D543F;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.btn-secondary {
+    display: inline-block;
+    background-color: #315B3B;
+    color: white;
+    text-decoration: none;
+    padding: 11px 22px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn-secondary:hover {
+    background-color: #426F4B;
+}
+
+.product {
+    background-color: #EAE2D0;
+    padding: 55px 8%;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.title h2 {
+    color: #315B3B;
+    margin: 28px;
+    margin-bottom: 10px;
+}
+
+.title p {
+    color: #8B6246;
+    font-size: 14px;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.product-card {
+    width: 35%;
+    background-color: #FFFCF5;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.product-card img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.product-card h3 {
+    color: #315B3B;
+    font-size: 17px;
+}
+
+.product-card p {
+    color: #6D543F;
+    font-size: 13px;
+}
+
+.product-btn {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.advantage {
+    padding: 55px 8%;
+    text-align: center;
+}
+
+.advantage h2 {
+    color: #315B3B;
+    font-size: 27px;
+    margin-bottom: 35px;
+}
+
+.advantage-list {
+    display: flex;
+    gap: 25px;
+}
+
+.advantage-item {
+    width: 33%;
+    padding: 25px 15px;
+    background-color: #FFFCF5;
+    border-radius: 8px;
+    border-bottom: 4px solid #8B6246;
+    box-sizing: border-box;
+}
+
+.advantage-item h3 {
+    color: #315B3B;
+    font-size: 17px;
+}
+
+.advantage-item p {
+    color: #6D543F;
+    font-size: 13px;
+    line-height: 1.6;
+}
