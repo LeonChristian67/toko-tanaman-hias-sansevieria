@@ -1,0 +1,61 @@
+.delivery {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px 16px;
+  line-height: 1.6;
+}
+
+.delivery h1 {
+  margin-bottom: 8px;
+}
+
+.delivery h2 {
+  margin-top: 32px;
+}
+
+.delivery table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+
+.delivery th,
+.delivery td {
+  border: 1px solid #999;
+  padding: 8px;
+  text-align: left;
+}
+
+.delivery th {
+  background: #eee;
+  color: #000;
+}
+
+.cek-tarif {
+  margin-top: 12px;
+}
+
+.cek-tarif select {
+  padding: 6px;
+  margin-left: 8px;
+}
+
+#hasil-tarif {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Background hijau */
+body {
+  background: #2e7d32;
+  color: #fff;
+}
+
+.delivery a {
+  color: #fff;
+}
+
+.delivery td {
+  background: #fff;
+  color: #000;
+}
