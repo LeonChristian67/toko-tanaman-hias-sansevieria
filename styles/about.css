@@ -3,6 +3,7 @@
     background-size: 90vh;
     background-position: center;
     padding: 120px;
+    line-height: 1.5;
     }
 
 .box {
@@ -15,34 +16,9 @@
 }
 
 h1 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 32px;
 }
 
 p {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 15px;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    gap: 20px;
-    background-color: #047857; /* Contoh warna hijau tanaman */
-    padding: 10px 20px;
-    border-radius: 4px;
-}
-
-nav ul li a {
-    color: rgb(128, 245, 155);
-    text-decoration: none;
-    font-weight: bold;
-}
-
-nav ul li a:hover,
-nav ul li a.active {
-    text-decoration: underline;
-    color: #ffffff;
 }

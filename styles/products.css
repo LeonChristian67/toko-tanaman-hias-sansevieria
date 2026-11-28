@@ -1,4 +1,8 @@
 /* Layout Katalog Produk Menggunakan Grid */
+body {
+    background-color: #f5eedc;
+}
+
 .product-category {
     margin-bottom: 40px;
     object-fit: cover;
