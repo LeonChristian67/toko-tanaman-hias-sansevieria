@@ -47,7 +47,7 @@
 
 /* Background hijau */
 body {
-  background: #2e7d32;
+  background: lab(51.92% -26.23 19.73);
   color: #fff;
 }
 
