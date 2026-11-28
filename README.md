@@ -21,9 +21,12 @@ toko-tanaman-hias-sansevieria/
 │   ├── fonts/
 │   ├── images/
 │   │   ├── about/
+│   │   ├── contact/
 │   │   ├── delivery-info/
 │   │   ├── gallery/
 │   │   ├── hero/
+│   │   ├── icons/
+│   │   ├── index/
 │   │   ├── logo/
 │   │   ├── plant-care/
 │   │   └── products/
@@ -32,6 +35,7 @@ toko-tanaman-hias-sansevieria/
 │
 ├── pages/
 │   ├── about.html
+│   ├── contact.html
 │   ├── delivery-info.html
 │   ├── gallery.html
 │   ├── plant-care.html
@@ -40,7 +44,7 @@ toko-tanaman-hias-sansevieria/
 │
 ├── styles/
 │   ├── about.css
-│   ├── contacts.css
+│   ├── contact.css
 │   ├── delivery-info.css
 │   ├── gallery.css
 │   ├── global.css

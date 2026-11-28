@@ -1,0 +1,143 @@
+/* Tata letak utama halaman pricing */
+main {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+body {
+    background-color:#f5eedc;
+}
+
+.pricing-intro {
+    margin-bottom: 35px;
+}
+
+.pricing-intro h1 {
+    color: #064e3b;
+    margin-bottom: 10px;
+}
+
+.pricing-intro p {
+    color: #475569;
+    line-height: 1.6;
+}
+
+/* Judul tiap bagian */
+.pricing-table-section h2,
+.bundle-section h2 {
+    color: #047857;
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #d1fae5;
+}
+
+/* Styling Tabel Harga (Semantic Table) */
+.pricing-table-section {
+    margin-bottom: 50px;
+}
+
+.pricing-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.pricing-table caption {
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 10px;
+    color: #334155;
+}
+
+.pricing-table th,
+.pricing-table td {
+    padding: 14px 16px;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.pricing-table th {
+    background-color: #047857;
+    color: #ffffff;
+}
+
+.pricing-table tbody tr:nth-child(even) {
+    background-color: #f8fafc;
+}
+
+.pricing-table tbody tr:hover {
+    background-color: #ecfdf5;
+    transition: background-color 0.2s ease;
+}
+
+/* Styling Kartu Paket dengan Grid & Position */
+.bundle-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    gap: 24px;
+    margin-top: 20px;
+}
+
+.bundle-card {
+    position: relative; /* Referensi untuk badge-tag */
+    background-color: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    padding: 24px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.04);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bundle-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
+    border-color: #10b981;
+}
+
+/* Badge menggunakan Position Absolute */
+.badge-tag {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background-color: #10b981;
+    color: #ffffff;
+    font-size: 0.75rem;
+    font-weight: bold;
+    padding: 4px 10px;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+.bundle-card h3 {
+    color: #1e293b;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.bundle-summary {
+    color: #64748b;
+    font-size: 0.92rem;
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+
+.bundle-list {
+    padding-left: 20px;
+    margin-bottom: 20px;
+    color: #334155;
+    font-size: 0.92rem;
+    line-height: 1.6;
+}
+
+.bundle-price {
+    font-size: 1.35rem;
+    font-weight: bold;
+    color: #047857;
+    margin: 0;
+    padding-top: 12px;
+    border-top: 1px dashed #cbd5e1;
+}

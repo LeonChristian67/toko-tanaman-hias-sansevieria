@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <!-- ================= NAVBAR ================= -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="/index.html">Beranda</a></li>
+        <li><a href="/pages/about.html">Tentang Kami</a></li>
+        <li><a href="/pages/products.html">Produk</a></li>
+        <li><a href="/pages/pricing.html">Harga &amp; Paket</a></li>
+        <li><a href="/pages/gallery.html">Galeri</a></li>
+        <li><a href="/pages/contact.html">Kontak</a></li>
+        <li><a href="/pages/delivery-info.html">Pengantaran</a></li>
+        <li><a href="/pages/plant-care.html" class="active">Perawatan</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ================================ -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Info Pengantaran - Toko Taman Hias Sansevieria</title>
+  <link rel="stylesheet" href="/styles/global.css">
+  <link rel="stylesheet" href="/styles/delivery-info.css">
+</head>
+<body>
+
+  <main class="delivery">
+    <h1>Info Pengantaran</h1>
+    <p>Ketentuan pengemasan dan pengiriman Toko Taman Hias Sansevieria.</p>
+
+    <h2>Ketentuan Pengemasan</h2>
+    <ul>
+      <li>Setiap tanaman dibungkus kertas atau koran agar daun tidak patah.</li>
+      <li>Tanaman dikemas dalam kardus atau box kayu sesuai ukuran.</li>
+      <li>Media tanam (tanah) dipadatkan agar tidak tumpah selama perjalanan.</li>
+      <li>Pot keramik/kaca dikemas terpisah dengan bubble wrap.</li>
+      <li>Biaya kemasan tambahan (kayu/packing khusus) ditanggung pembeli.</li>
+    </ul>
+
+    <h2>Ketentuan Pengiriman</h2>
+    <ul>
+      <li>Pesanan diproses 1-2 hari kerja setelah pembayaran diterima.</li>
+      <li>Pengiriman dilakukan Senin sampai Sabtu.</li>
+      <li>Pengiriman dalam kota Pontianak bisa diantar langsung oleh kurir toko.</li>
+      <li>Luar kota dikirim lewat ekspedisi; nomor resi diberikan setelah barang dikirim.</li>
+      <li>Komplain kerusakan harus disertai foto/video saat membuka paket, maksimal 1x24 jam setelah barang diterima.</li>
+    </ul>
+
+    <h2>Tarif Pengiriman Menurut Area</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Area</th>
+          <th>Tarif</th>
+          <th>Estimasi Tiba</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Pontianak (dalam kota)</td><td>Rp 15.000</td><td>1 hari</td></tr>
+        <tr><td>Kalimantan Barat (luar Pontianak)</td><td>Rp 35.000</td><td>2-3 hari</td></tr>
+        <tr><td>Kalimantan (provinsi lain)</td><td>Rp 60.000</td><td>3-5 hari</td></tr>
+        <tr><td>Pulau Jawa</td><td>Rp 80.000</td><td>4-6 hari</td></tr>
+        <tr><td>Sumatera</td><td>Rp 90.000</td><td>4-7 hari</td></tr>
+        <tr><td>Sulawesi, Bali, dan lainnya</td><td>Rp 110.000</td><td>5-8 hari</td></tr>
+      </tbody>
+    </table>
+
+    <div class="cek-tarif">
+      <label for="area">Cek tarif:
+        <select id="area">
+          <option value="">-- Pilih area --</option>
+          <option value="15000|1 hari">Pontianak (dalam kota)</option>
+          <option value="35000|2-3 hari">Kalimantan Barat (luar Pontianak)</option>
+          <option value="60000|3-5 hari">Kalimantan (provinsi lain)</option>
+          <option value="80000|4-6 hari">Pulau Jawa</option>
+          <option value="90000|4-7 hari">Sumatera</option>
+          <option value="110000|5-8 hari">Sulawesi, Bali, dan lainnya</option>
+        </select>
+      </label>
+      <p id="hasil-tarif"></p>
+    </div>
+
+    <p><a href="plant-care.html">&larr; Kembali ke Perawatan Tanaman</a></p>
+  </main>
+
+  <script>
+    var pilih = document.getElementById('area');
+    var hasil = document.getElementById('hasil-tarif');
+
+    pilih.addEventListener('change', function () {
+      if (pilih.value === '') {
+        hasil.textContent = '';
+        return;
+      }
+      var data = pilih.value.split('|');
+      var tarif = Number(data[0]).toLocaleString('id-ID');
+      hasil.textContent = 'Tarif: Rp ' + tarif + ' | Estimasi tiba: ' + data[1];
+    });
+  </script>
+
+</body>
+</html>
