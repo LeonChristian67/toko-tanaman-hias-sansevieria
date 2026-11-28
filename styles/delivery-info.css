@@ -47,15 +47,15 @@
 
 /* Background hijau */
 body {
-  background: lab(51.92% -26.23 19.73);
-  color: #fff;
+  background-color: #f5eedc;
+  color: #2b6a3b;
 }
 
 .delivery a {
-  color: #fff;
+  color: #3b9c53;
 }
 
 .delivery td {
-  background: #fff;
-  color: #000;
+  background: #7bc78e;
+  color: #362d18;
 }

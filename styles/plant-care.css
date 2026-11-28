@@ -1,16 +1,6 @@
-/* ================= RESET & DASAR ================= */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
+/* ================= DASAR ================= */
 html {
   scroll-behavior: smooth;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* ================= HERO (BACKGROUND BLUR) ================= */
